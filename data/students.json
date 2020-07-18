@@ -1,0 +1,46 @@
+[
+    {
+        "id": 1,
+        "rfidTag": "c001bc5c",
+        "name": "Makhmudjon",
+        "secondName": "Inadullaev",
+        "studentId": "U1710047",
+        "department": "SOCIE",
+        "status": "No overdue",
+        "type": "Student",
+        "image": "/assets/makhmudjon.jpg"
+    },
+    {
+        "id": 2,
+        "rfidTag": "24120de0",
+        "name": "Azamat",
+        "secondName": "Abdullaev",
+        "studentId": "U1710008",
+        "department": "SOCIE",
+        "status": "No overdue",
+        "type": "Student",
+        "image": "/assets/azamat.jpg"
+    },
+    {
+        "id": 3,
+        "rfidTag": "17525e05",
+        "name": "Saidakbar",
+        "secondName": "Makhmudkhujaev",
+        "studentId": "U1710073",
+        "department": "SOCIE",
+        "status": "No overdue",
+        "type": "Student",
+        "image": "/assets/saidakbar.jpg"
+    },
+    {
+        "id": 4,
+        "rfidTag": "607a435f",
+        "name": "Zafar",
+        "secondName": "Davlatov",
+        "studentId": "-",
+        "department": "-",
+        "status": "No overdue",
+        "type": "Staff",
+        "image": "/assets/staff.png"
+    }
+]

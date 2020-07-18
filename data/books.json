@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "rfidTag": "043ed362",
+        "title": "Calculus 8th Edition",
+        "year": 2016,
+        "author": "Hearn (Author)",
+        "code": "29383",
+        "ISBN": "2322393948483333243",
+        "image": "https://ebookschoice.com/wp-content/uploads/2019/04/Calculus-8th-edition-by-James-Stewart.jpg"
+    },
+    {
+        "id": 2,
+        "rfidTag": "8058525f",
+        "title": "Electrical Engineering",
+        "year": 2019,
+        "author": "Hearn (Author)",
+        "code": "54321",
+        "ISBN": "3214124124124324442",
+        "image": "https://cv02.twirpx.net/2967/2967033.jpg?t=20191106163258"
+    },
+    {
+        "id": 3,
+        "rfidTag": "4050455f",
+        "title": "Conquer Math",
+        "year": 2017,
+        "author": "Steve Jobs",
+        "code": "34215",
+        "ISBN": "1748165921246542654",
+        "image": "https://mlxmnhcomj8p.i.optimole.com/w:392/h:536/q:75/dpr:2.6/https://www.sapgrp.com/wp-content/uploads/2019/05/4453882_Cover.jpg"
+    },
+    {
+        "id": 4,
+        "rfidTag": "70ed7e5f",
+        "title": "Physics",
+        "year": 2015,
+        "author": "Bill Gates",
+        "code": "47868",
+        "ISBN": "1748428128421827431",
+        "image": "https://novapublishers.com/wp-content/uploads/2018/09/9781536138931-e1537564244935.jpg"
+    }
+]
