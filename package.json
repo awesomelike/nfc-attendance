@@ -1,6 +1,6 @@
 {
-  "name": "ejurnal-server",
-  "version": "0.0.0",
+  "name": "nfc-attendance",
+  "version": "0.1.0",
   "private": true,
   "scripts": {
     "start": "nodemon ./bin/www --exec babel-node --presets babel-preset-env"
