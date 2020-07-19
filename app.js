@@ -10,7 +10,7 @@ import { createServer } from 'http';
 
 const app = express();
 const server = createServer(app);
-const io = socketIO(server);
+const io = socketIO(server, { rememberTransport: false, transports: ['websocket', 'polling'] });
 app.io = io;
 // view engine setup
 app.set('views', join(__dirname, 'views'));
