@@ -13,7 +13,7 @@ export default (socket) => {
         socket.emit('professorRfid', rfid);
         console.log('emitted prof rfid');
         
-        emitter.removeAllListeners('cardReceived');
+        // emitter.removeAllListeners('cardReceived');
       } catch(error) {
         console.log(error);
         socket.emit('dataError', 'Professor not found or no classes right now!');
