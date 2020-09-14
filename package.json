@@ -3,7 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "start": "nodemon ./bin/www --exec babel-node --presets babel-preset-env"
+    "start": "nodemon ./bin/www --exec babel-node --presets babel-preset-env",
+    "build": "babel ./ -d build --ignore node_modules,build"
   },
   "dependencies": {
     "axios": "^0.19.2",
@@ -21,14 +22,16 @@
     "socket.io": "^2.3.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.8.0",
-    "babel-cli": "^6.26.0",
-    "babel-core": "^6.26.3",
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.11.0",
+    "@babel/register": "^7.10.5",
     "babel-loader": "^8.0.6",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-preset-env": "^1.7.0",
     "eslint": "^6.8.0",
-    "eslint-config-airbnb-base": "^14.0.0",
-    "eslint-plugin-import": "^2.20.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.1",
     "nodemon": "^2.0.2"
   }
 }
